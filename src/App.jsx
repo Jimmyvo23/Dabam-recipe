@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Recipes from "./Recipes.jsx";
 import { Form, Navbar, Button, Container, Row } from "react-bootstrap";
+import Footer from "./Footer"
 import "./App.css";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
   console.log(query);
   return (
     <div>
+    
       <Navbar className="nav" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#" className="nav-brand">
@@ -68,7 +70,9 @@ function App() {
           ))}
         </Row>
       </Container>
+      <Footer />
     </div>
   );
+  
 }
 export default App;

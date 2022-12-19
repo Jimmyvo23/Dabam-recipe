@@ -1,0 +1,26 @@
+.nav-brand{
+  display: flex;
+  font-size: 35px;
+  list-style: none;
+  margin-right: 3rem;
+  font-family: "Montserrat", sans-serif;
+  
+  
+}
+.nav {
+  background : #FBF8F1;
+}
+body {
+  background: #F7ECDE;
+}
+.tourpackage {
+  background-color: #E9DAC1;
+  position: relative;
+  padding: 100px;
+  margin: 50px auto;
+}
+
+
+.tourpackage-column {
+  padding: 2%;
+}
